@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+pandas
+numpy
+tensorflow-cpu
+joblib
+scikit-learn==1.6.1
+prometheus-fastapi-instrumentator
+google-genai

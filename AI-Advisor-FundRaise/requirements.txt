@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+python-dotenv
+prometheus-fastapi-instrumentator
+google-genai
+chromadb
