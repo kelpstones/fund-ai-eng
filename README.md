@@ -2,8 +2,8 @@
 
 Layanan Utama AI dan Pipeline Machine Learning untuk aplikasi pendanaan **FundRise** berbasis Python, FastAPI, dan ChromaDB. Sistem ini dirancang sebagai otak kecerdasan buatan dari ekosistem FundRise, menyediakan klasifikasi kelayakan bisnis UMKM, rekomendasi investasi cerdas, ringkasan finansial otomatis, serta *AI Advisor Chatbot* interaktif berbasis arsitektur RAG (Retrieval-Augmented Generation).
 
-> ⚠️ **Note**
-> 
+> [!CAUTION]
+> **NOTE**
 > Proyek ini merupakan Capstone Project untuk program Coding Camp 2026 yang diselenggarakan dan didukung penuh oleh DBS Foundation x Dicoding.
 
 ---
