@@ -263,15 +263,11 @@ Kami menggunakan metrik pemantauan tingkat lanjut untuk mencegah masalah stabili
 
 ---
 
-## Tim Pengembang
+## Tim Pengembang AI
 
-Berikut adalah daftar anggota tim pengembangan proyek ini:
-* **Muhamad Danendra Prawiraamijoyo** — Full-Stack Web Developer *(Backend Integration)*
-* **Azra Hudaya** — Full-Stack Web Developer *(Backend Integration)*
-* **Aldi Kurnia Fadillah** — AI Engineer *(Modul Core ML API & Deployment)*
-* **Andika Ardiansyah** — Data Scientist *(Model Training & Optimization)*
-* **Adam Kevin** — Data Scientist *(Data Pipeline & Feature Engineering)*
-* **Yazid Hilmi Allamsyah** — AI Engineer *(Modul RAG System & AI Advisor)*
+Berikut adalah daftar anggota tim pengembangan AI di proyek ini:
+* **Aldi Kurnia Fadillah** — AI Engineer
+* **Yazid Hilmi Allamsyah** — AI Engineer
 
 ## Lisensi
 
