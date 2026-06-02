@@ -254,7 +254,7 @@ Infrastruktur *live* AI FundRise berjalan di atas ekosistem Hugging Face Spaces 
 * **API Advisor Chatbot:** [Hugging Face - AI Advisor FundRaise](https://huggingface.co/spaces/Krzpztrk/AI-Advisor-FundRaise)
 * **API Monitoring (Prometheus):** [Monitoring Prometheus FundRaise](https://huggingface.co/spaces/Krzpztrk/Monitoring-Prometheus-FundRaise)
 * **Public Grafana Dashboard:** [Live Dashboard FundRise](https://fundraise.grafana.net/public-dashboards/7a9556dc11804238a1c4928da17c422b?from=now-24h&to=now&timezone=browser)
-* **Penyimpanan Cloud Aset Model:** [Google Drive Folder - Model Files](https://drive.google.com/drive/folders/1ARBgCh-3UrBW-yZY1RJW0xTPc5kv0hnt?usp=sharing)
+* **Link G-Drive Model:** [Google Drive Folder - Model Files](https://drive.google.com/drive/folders/1ARBgCh-3UrBW-yZY1RJW0xTPc5kv0hnt?usp=sharing)
 
 ### Visualisasi Monitoring
 Kami menggunakan metrik pemantauan tingkat lanjut untuk mencegah masalah stabilitas sistem. Metrik yang dipantau meliputi waktu latensi per *request*, manajemen alokasi memori RAM *container*, dan laju arus data.
