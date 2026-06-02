@@ -93,7 +93,10 @@ weighted avg       0.94      0.94      0.94     30000
 ```
 *Catatan: Kelas 3 (Elite) tetap mencetak skor presisi dan recall yang sangat tinggi (0.93) meskipun memiliki data minoritas terbanyak. Hal ini membuktikan efektivitas penggunaan Focal Loss dan Custom Threshold pada proses pelatihan.*
 
-![Confusion Matrix](image_a81442.png)
+![Grafik Akurasi dan Loss Model](assets/Plot_Loss_dan_Akurasi_FT-Transformer.png)
+*(Kurva akurasi dan loss yang stabil membuktikan model terhindar dari overfitting).*
+
+![Confusion Matrix](assets/confussion_matriks_FT-Transformer.png)
 
 **Analisis Matriks:** Sebaran tebakan akurat terpusat kuat pada garis diagonal utama. Kesalahan klasifikasi sangat minim dan hanya meleset ke kelas yang saling bersebelahan secara logis. Model terbukti sangat memahami urutan tingkatan risiko (contoh: Kelas 0 hampir tidak pernah diprediksi terbalik menjadi Kelas 3).
 </details>
@@ -138,9 +141,11 @@ weighted avg       0.94      0.94      0.94     30000
 ├── Monitoring-Prometheus-FundRaise/ # Konfigurasi Exporter
 │   └── prometheus.yml             # Konfigurasi remote_write Grafana Cloud
 │
-├── image_a81442.png               # Grafik Confusion Matrix
-├── image_a82bbd.png               # Grafik performa Model FT-Transformer
-├── image_abca21.png               # Aset gambar tangkapan layar dashboard Grafana
+├── assets/                        # Direktori penyimpanan aset gambar & visualisasi
+│   ├── confussion_matriks_FT-Transformer.png
+│   ├── Plot_Loss_dan_Akurasi_FT-Transformer.png
+│   └── Dashboard_Grafana_Monitoring.png
+│
 └── README.md                      # Dokumentasi proyek AI
 ```
 
@@ -254,7 +259,7 @@ Infrastruktur *live* AI FundRise berjalan di atas ekosistem Hugging Face Spaces 
 ### Visualisasi Monitoring
 Kami menggunakan metrik pemantauan tingkat lanjut untuk mencegah masalah stabilitas sistem. Metrik yang dipantau meliputi waktu latensi per *request*, manajemen alokasi memori RAM *container*, dan laju arus data.
 
-![Grafana Dashboard Monitoring](image_abca21.png)
+![Grafana Dashboard Monitoring](assets/Dashboard_Grafana_Monitoring.png)
 
 ---
 
