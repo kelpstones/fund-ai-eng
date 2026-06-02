@@ -1,0 +1,58 @@
+[
+  {
+    "kategori": "Definisi Metrik",
+    "teks": "Net Profit Margin adalah persentase rasio laba bersih terhadap total pendapatan UMKM."
+  },
+  {
+    "kategori": "Definisi Metrik",
+    "teks": "Kepuasan Pelanggan adalah rata-rata skor penilaian pelanggan dengan skala 1 sampai 5."
+  },
+  {
+    "kategori": "Definisi Metrik",
+    "teks": "Peak Hour Latency mengukur ketahanan sistem digital UMKM saat ramai pengunjung. Kategori Low berarti sistem sangat responsif dan tidak lag saat pesanan membludak, yang meminimalisir risiko operasional."
+  },
+  {
+    "kategori": "Definisi Metrik",
+    "teks": "Review Volatility mengukur fluktuasi ulasan pelanggan. Volatilitas rendah menandakan kualitas produk UMKM tersebut stabil dan konsisten."
+  },
+  {
+    "kategori": "Definisi Metrik",
+    "teks": "Repeat Order Rate menunjukkan persentase pelanggan yang melakukan pemesanan ulang. Ini adalah indikator utama loyalitas pelanggan."
+  },
+  {
+    "kategori": "Definisi Metrik",
+    "teks": "Digital Adoption Score (skala 1-10) menunjukkan tingkat adopsi teknologi oleh UMKM, seperti kasir digital atau pemasaran online."
+  },
+  {
+    "kategori": "Definisi Metrik",
+    "teks": "Year Revenue adalah total pendapatan UMKM dalam periode satu tahun."
+  },
+  {
+    "kategori": "Definisi Metrik",
+    "teks": "Business Tenure Years adalah lama waktu usaha telah beroperasi secara komersial dalam hitungan tahun."
+  },
+  {
+    "kategori": "Panduan Form UMKM",
+    "teks": "Cara menghitung Net Profit Margin untuk form: Kurangi total pendapatan setahun dengan total biaya operasional. Bagi hasilnya dengan total pendapatan, lalu kalikan 100. Contoh: Untung 20jt dari omset 100jt, berarti margin 20%."
+  },
+  {
+    "kategori": "Panduan Form UMKM",
+    "teks": "Untuk mengisi Business Tenure Years, gunakan angka desimal jika belum genap setahun. Misalnya, jika baru berjalan 6 bulan, masukkan 0.5."
+  },
+  {
+    "kategori": "Panduan Form UMKM",
+    "teks": "Untuk Repeat Order Rate, hitung jumlah pelanggan yang membeli lebih dari sekali, lalu bagi dengan total pelanggan unik Anda, dan kalikan 100."
+  },
+  {
+    "kategori": "Aturan Platform",
+    "teks": "Proses pendanaan UMKM di FundRaise akan dikunci selama masa kontrak investasi berjalan untuk menjaga stabilitas kas operasional UMKM."
+  },
+  {
+    "kategori": "Aturan Platform",
+    "teks": "Platform FundRaise mencocokkan investor dengan UMKM menggunakan teknologi AI yang menganalisis metrik finansial dan tingkat adopsi digital bisnis Anda."
+  },
+  {
+    "kategori": "Aturan Platform",
+    "teks": "FundRaise mengklasifikasikan UMKM ke dalam kelas bisnis seperti Elite, Growth, Struggling, dan Critical untuk memudahkan investor memahami profil risiko."
+  }
+]
