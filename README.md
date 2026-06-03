@@ -14,6 +14,7 @@ Proyek AI Service ini merupakan bagian dari ekosistem aplikasi FundRise. Berikut
 * **Frontend Application (fund-fe):** [github.com/kelpstones/fund-fe](https://github.com/kelpstones/fund-fe)
 * **Backend API (fund-be):** [github.com/kelpstones/fund-be](https://github.com/kelpstones/fund-be)
 * **Data Science (fund-ds):** [github.com/kelpstones/fund-ds](https://github.com/kelpstones/fund-ds)
+* **Model Machine Learning**: [google drive](https://drive.google.com/drive/folders/1ARBgCh-3UrBW-yZY1RJW0xTPc5kv0hnt?usp=sharing)
 
 ---
 
