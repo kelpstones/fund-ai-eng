@@ -28,7 +28,7 @@ Aplikasi AI Service ini dilengkapi dengan fitur-fitur tingkat lanjut berikut:
 
 ---
 
-## 🧠 Deskripsi Model & Evaluasi (Model Utama)
+## 🧠 Deskripsi Model Utama (Klasifikasi UMKM)
 
 Sistem **Core ML API** untuk klasifikasi UMKM dilatih secara end-to-end dan ditenagai oleh arsitektur **FT-Transformer (Feature Tokenizer Transformer)**. Model ini secara khusus dirancang untuk memproses data tabular (tabel) dengan mengadopsi mekanisme pembelajaran canggih dari bidang *Natural Language Processing* (NLP).
 
