@@ -13,7 +13,7 @@ Layanan Utama AI dan Pipeline Machine Learning untuk aplikasi pendanaan **FundRi
 Proyek AI Service ini merupakan bagian dari ekosistem aplikasi FundRise. Berikut adalah repositori terkait lainnya:
 * **Frontend Application (fund-fe):** [github.com/kelpstones/fund-fe](https://github.com/kelpstones/fund-fe)
 * **Backend API (fund-be):** [github.com/kelpstones/fund-be](https://github.com/kelpstones/fund-be)
-* **Data Science (fund-ds):** [github.com/kelpstones/fund-ds](https://github.com/kelpstones/fund-ds) *(Repositori khusus Data Preprocessing & Pipeline)*
+* **Data Science (fund-ds):** [github.com/kelpstones/fund-ds](https://github.com/kelpstones/fund-ds)
 
 ---
 
