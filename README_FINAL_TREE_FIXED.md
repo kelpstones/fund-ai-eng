@@ -186,7 +186,7 @@ weighted avg       0.91      0.91      0.91     24000
 │   └── requirements.txt               # Dependensi modul Core ML
 │
 ├── Logs-Tensorboard/20260601-043953/  # Riwayat log training model untuk TensorBoard
-│   └── events.out.tfevents...v2       # File log metrik performa
+│   └── events.out.tfevents.1780288793.47f70b602da4.504.2.v2        # File log metrik performa
 │
 ├── Monitoring-Prometheus-FundRaise/   # Konfigurasi Exporter & Monitoring
 │   ├── .env.example                   # Template environment konfig
