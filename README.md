@@ -162,46 +162,46 @@ weighted avg       0.91      0.91      0.91     24000
 ## Struktur Direktori Proyek
 
 ```text
-├── AI-Advisor-FundRaise/              # Modul Asisten Pintar & Chatbot (RAG)
-│   ├── fundraise_vectordb/            # Direktori Vector Database (Otomatis terbuat setelah build)
-│   ├── .dockerignore                  # Pengecualian file untuk Docker build
-│   ├── .env.example                   # Template environment konfig
-│   ├── app.py                         # Entry point server Chatbot API
-│   ├── build_db.py                    # Script untuk inisialisasi & build ChromaDB
-│   ├── Dockerfile                     # Konfigurasi container AI Advisor
-│   ├── knowledge_base.json            # Data sumber pengetahuan untuk di-embed ke Vector DB
-│   ├── README.md                      # Dokumentasi lokal modul AI Advisor
-│   └── requirements.txt               # Dependensi modul AI Advisor
+├── AI-Advisor-FundRaise/                                           # Modul Asisten Pintar & Chatbot (RAG)
+│   ├── fundraise_vectordb/                                         # Direktori Vector Database (Otomatis terbuat setelah build)
+│   ├── .dockerignore                                               # Pengecualian file untuk Docker build
+│   ├── .env.example                                                # Template environment konfig
+│   ├── app.py                                                      # Entry point server Chatbot API
+│   ├── build_db.py                                                 # Script untuk inisialisasi & build ChromaDB
+│   ├── Dockerfile                                                  # Konfigurasi container AI Advisor
+│   ├── knowledge_base.json                                         # Data sumber pengetahuan untuk di-embed ke Vector DB
+│   ├── README.md                                                   # Dokumentasi lokal modul AI Advisor
+│   └── requirements.txt                                            # Dependensi modul AI Advisor
 │
-├── API-Model-Fundraise-v3/            # Modul Core ML API (Klasifikasi, Rekomendasi, Summary)
-│   ├── .env.example                   # Template environment konfig server
-│   ├── ai_service.py                  # Layanan fungsi AI terpusat
-│   ├── app.py                         # Entry point aplikasi FastAPI utama
-│   ├── best_ft_transformer.keras      # File model Neural Network FT-Transformer
-│   ├── Dockerfile                     # Konfigurasi container Core ML API
-│   ├── pipeline_investor.joblib       # Pipeline Preprocessor untuk Investor
-│   ├── pipeline.joblib                # Pipeline Preprocessor untuk UMKM
-│   ├── PolyEns.joblib                 # File model Ansambel Polinomial
-│   ├── README.md                      # Dokumentasi lokal modul Core ML API
-│   └── requirements.txt               # Dependensi modul Core ML
+├── API-Model-Fundraise-v3/                                         # Modul Core ML API (Klasifikasi, Rekomendasi, Summary)
+│   ├── .env.example                                                # Template environment konfig server
+│   ├── ai_service.py                                               # Layanan fungsi AI terpusat
+│   ├── app.py                                                      # Entry point aplikasi FastAPI utama
+│   ├── best_ft_transformer.keras                                   # File model Neural Network FT-Transformer
+│   ├── Dockerfile                                                  # Konfigurasi container Core ML API
+│   ├── pipeline_investor.joblib                                    # Pipeline Preprocessor untuk Investor
+│   ├── pipeline.joblib                                             # Pipeline Preprocessor untuk UMKM
+│   ├── PolyEns.joblib                                              # File model Ansambel Polinomial
+│   ├── README.md                                                   # Dokumentasi lokal modul Core ML API
+│   └── requirements.txt                                            # Dependensi modul Core ML
 │
-├── Logs-Tensorboard/20260601-043953/  # Riwayat log training model untuk TensorBoard
-│   └── events.out.tfevents.1780288793.47f70b602da4.504.2.v2      # File log metrik performa
+├── Logs-Tensorboard/20260601-043953/                               # Riwayat log training model untuk TensorBoard
+│   └── events.out.tfevents.1780288793.47f70b602da4.504.2.v2        # File log metrik performa
 │
-├── Monitoring-Prometheus-FundRaise/   # Konfigurasi Exporter & Monitoring
-│   ├── .env.example                   # Template environment konfig
-│   ├── Dockerfile                     # Konfigurasi container monitoring
-│   └── prometheus.yml                 # Konfigurasi remote_write Grafana Cloud
+├── Monitoring-Prometheus-FundRaise/                                # Konfigurasi Exporter & Monitoring
+│   ├── .env.example                                                # Template environment konfig
+│   ├── Dockerfile                                                  # Konfigurasi container monitoring
+│   └── prometheus.yml                                              # Konfigurasi remote_write Grafana Cloud
 │
-├── assets/                            # Direktori penyimpanan aset gambar & visualisasi
+├── assets/                                                         # Direktori penyimpanan aset gambar & visualisasi
 │   ├── confussion_matriks_FT-Transformer.png
 │   ├── Dashboard_Grafana_Monitoring.png
 │   └── Plot_Loss_dan_Akurasi_FT-Transformer.png
 │
-├── .gitignore                         # Pengecualian file untuk Git
-├── Klasifikasi Investor (Model Sekunder).ipynb # Notebook eksperimen model investor
-├── Klasifikasi UMKM (Model Utama).ipynb       # Notebook eksperimen model UMKM
-└── README.md                          # Dokumentasi utama proyek AI
+├── .gitignore                                                      # Pengecualian file untuk Git
+├── Klasifikasi Investor (Model Sekunder).ipynb                     # Notebook eksperimen model investor
+├── Klasifikasi UMKM (Model Utama).ipynb                            # Notebook eksperimen model UMKM
+└── README.md                                                       # Dokumentasi utama proyek AI
 ```
 
 ---
