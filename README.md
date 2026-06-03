@@ -23,7 +23,7 @@ Aplikasi AI Service ini dilengkapi dengan fitur-fitur tingkat lanjut berikut:
 * **Sistem Klasifikasi UMKM Pintar (`/classify-umkm`):** Memproses data profil bisnis UMKM menggunakan model berbasis **FT-Transformer** (Feature Tokenizer Transformer) untuk memprediksi kelas risiko dan kelayakan pendanaan secara otomatis.
 * **Mesin Rekomendasi Investasi (`/recommend`):** Menggunakan **PolyEns (Polynomial Ensemble)** dan *Cosine Similarity* untuk mencocokkan profil investor dengan proposal UMKM aktif (diambil via *Backend API*), serta memberikan skor kecocokan dalam persentase.
 * **Financial Summary Generator (`/generate-financial-summary`):** Mengintegrasikan LLM untuk membaca data *metrics* finansial UMKM dan menghasilkan ringkasan naratif secara otomatis.
-* **AI Advisor Chatbot (RAG System):** Asisten virtual bertenaga **Google Gemini API** yang terintegrasi dengan **ChromaDB Vector Database**. Chatbot ini memiliki *Dual-Persona* (Customer Service & Investment Advisor) untuk menjawab pertanyaan operasional dan memberikan saran teknis.
+* **AI Advisor Chatbot (RAG System):** Asisten virtual bertenaga **Google Gemini API** yang terintegrasi dengan **ChromaDB Vector Database**. Chatbot ini memiliki *Dual-Persona* (Customer Service & Business Advisor) untuk menjawab pertanyaan operasional dan memberikan saran teknis.
 * **Monitoring Terpusat & Ekspor Metrik:** Mengekspos *endpoint* Prometheus yang langsung dikirim ke instance **Grafana Cloud** melalui *Remote Write* untuk visualisasi metrik secara *real-time*.
 
 ---
