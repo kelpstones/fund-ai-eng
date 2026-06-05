@@ -24,7 +24,7 @@ def get_financial_summary(data_dict):
         """
         
         response = client.models.generate_content(
-            model="gemini-3.1-flash-lite",
+            model="gemini-3-flash-preview",
             contents=prompt
         )
         
